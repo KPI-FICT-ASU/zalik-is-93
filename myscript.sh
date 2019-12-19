@@ -3,5 +3,4 @@
 echo "Enter line: "
 
 read line
-
-grep -r $line
+grep -r ./ -e $line
