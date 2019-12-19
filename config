@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/KPI-FICT-ASU/zalik-is-93.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
