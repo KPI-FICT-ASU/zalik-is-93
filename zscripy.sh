@@ -5,6 +5,5 @@ read a
 echo "Введите b: "
 read b
 let "c = a / b"
-echo "a/b= $c"
-let "c = a % b"
-echo "$a / $b. остаток: $c "
+echo "$a / $b "
+echo "scale=2; $a/$b" |bc -l
